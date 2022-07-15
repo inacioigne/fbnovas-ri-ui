@@ -1,0 +1,188 @@
+{
+  "dspaceUI" : "https://ri.fbnovas.edu.br/",
+  "dspaceName" : "RI Fbnovas",
+  "dspaceServer" : "https://ri.fbnovas.edu.br/server",
+  "dspaceVersion" : "DSpace 7.3",
+  "type" : "root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://ri.fbnovas.edu.br/server/actuator"
+    },
+    "authn" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/discover/browses"
+    },
+    "bundles" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/bundles"
+    },
+    "claimedtasks" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/workflow/claimedtasks/search"
+    },
+    "collections" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/communities"
+    },
+    "discover" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/discover"
+    },
+    "dso" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/eperson/groups"
+    },
+    "itemrequests" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/itemtemplates"
+    },
+    "metadatafields" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/metadataschemas"
+    },
+    "oidc" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/authn"
+    },
+    "pid" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/system/processes"
+    },
+    "properties" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/properties"
+    },
+    "registrations" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/system/scripts"
+    },
+    "self" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api"
+    },
+    "sites" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/submissioncclicenses"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/submissionuploads"
+    },
+    "usagereports" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://ri.fbnovas.edu.br/server/api/submission/workspaceitems"
+    }
+  }
+}
