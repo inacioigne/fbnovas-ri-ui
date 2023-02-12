@@ -32,6 +32,7 @@ export class RecentItemListComponent implements OnInit {
   itemRD$: Observable<RemoteData<PaginatedList<Item>>>;
   paginationConfig: PaginationComponentOptions;
   sortConfig: SortOptions;
+  
 
   /**
  * The view-mode we're currently on
@@ -61,9 +62,9 @@ export class RecentItemListComponent implements OnInit {
   ngOnInit(): void {
     const linksToFollow: FollowLinkConfig<Item>[] = [];
     if (this.appConfig.browseBy.showThumbnails) {
-      linksToFollow.push(followLink('thumbnail'));
+      linksToFollow.push(followLink('thumbnail'));      
     }
-
+  
     this.itemRD$ = this.searchService.search(
       new PaginatedSearchOptions({
         pagination: this.paginationConfig,
@@ -76,6 +77,8 @@ export class RecentItemListComponent implements OnInit {
     ).pipe(
       toDSpaceObjectListRD()
     ) as Observable<RemoteData<PaginatedList<Item>>>;
+
+    console.log("TEST: ",  linksToFollow)
   }
 
   ngOnDestroy(): void {

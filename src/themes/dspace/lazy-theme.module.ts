@@ -56,6 +56,7 @@ import {
 import { ComcolModule } from '../../app/shared/comcol/comcol.module';
 import { RootModule } from '../../app/root.module';
 
+
 const DECLARATIONS = [
 ];
 

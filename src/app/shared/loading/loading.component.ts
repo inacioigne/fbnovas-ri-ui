@@ -32,7 +32,7 @@ export class LoadingComponent implements OnDestroy, OnInit {
         this.message = message;
       });
     }
-  }
+  } 
 
   ngOnDestroy() {
     if (hasValue(this.subscription)) {
