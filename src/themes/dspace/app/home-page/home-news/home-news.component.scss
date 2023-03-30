@@ -3,8 +3,8 @@
   margin-top: calc(var(--ds-content-spacing) * -1);
 
   div.background-image-container {
-    background: rgb(13,10,68);
-    background: linear-gradient(90deg, rgba(13,10,68,1) 11%, rgba(57,57,175,1) 81%, rgba(0,212,255,1) 100%);
+    //background: rgb(13,10,68);
+    //background: linear-gradient(90deg, rgba(13,10,68,1) 11%, rgba(57,57,175,1) 81%, rgba(0,212,255,1) 100%);
 
     div.div-flex {
       align-items: center;
@@ -13,8 +13,9 @@
     }
 
     img {
-      width: 80px;
-      height: 80px;
+      width: 100%;
+      //width: 1500px;
+      height: 150px;
     }
 
     h1 {
