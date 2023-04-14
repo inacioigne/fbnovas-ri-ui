@@ -10,3 +10,5 @@ rest:
   host: ri.fbnovas.edu.br
   port: 443
   nameSpace: /server
+
+defaultLanguage: pt-BR
